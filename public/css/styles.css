@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+
+img{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+}
+/* para menu hamburguesa */
+.fa-bars{
+    background-color:blue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    border-radius: 5px;
+
+}
+
+footer section{
+    text-align: center;
+}
+
+
+
+
+
+.fa-credit-card {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-gift{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-user-shield{
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#publico li a{
+    text-decoration: none;
+    color: black;
+}
+#publico li {
+   list-style: none;
+}
+#privado li a{
+    text-decoration: none;
+    color: black;
+}
+#privado li {
+    list-style: none;
+}
