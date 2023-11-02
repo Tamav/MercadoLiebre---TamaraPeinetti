@@ -1,10 +1,13 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+   
 }
 
 header{
@@ -76,4 +79,21 @@ footer section{
 }
 #privado li {
     list-style: none;
+}
+
+.titulares{
+    font-size: 24px;
+}
+
+
+.precios{
+    font-size: 18px;
+}
+ 
+.descuentos{
+    font-size: 16px;
+}
+
+.descripciones{
+    font-size: 16px;
 }
