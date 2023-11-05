@@ -4,67 +4,114 @@
     
 }
 
+/* body */
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
    
 }
+/* header */
 
 header{
     background-color: #EAC926;
 }
 
+.navbar{
+    display: none;
+}
+/* section */
+section{
+    width: 100vw;
+}
 
+/* imagen */
 img{
     width: 100%;
 }
 
+/* banner */
 .banner{
     width: 100%;
 }
 /* para menu hamburguesa */
 .fa-bars{
-    background-color:blue;
+    background-color: #1259c3;
     color: white;
     text-align: center;
     padding: 8px;
     margin-bottom: 10px;
     margin-left: 45%;
     border-radius: 5px;
-
 }
 
-footer section{
+/* mensaje cuotas */
+.cuotas{
     text-align: center;
 }
 
 
+/* main */
+main{
+    background-color: #ebebeb;
+    border-top: 1px solid #ebebeb;
+}
 
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    color: #39b54a;
+    border-radius: 50%;
+   
+}
 
+.infoContainer{
+    position: relative;
+    border-top: 1px solid transparent;
+    width: 100%;
+    padding-left: 17px;
+    border-top: #ebebeb solid 1px;
 
-.fa-credit-card {
+}
+.productContainer{
+    width: 90%;
     background-color: white;
-    color: blue;
-    text-align: center;
-    font-size: 2em;
     margin-bottom: 10px;
+    border-top: 2px solid #ebebeb;
 }
 
-.fa-gift{
-    background-color: white;
-    color: blue;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
+.precios{
+    font-size: 18px;
+    width: 30%;
+    padding-right: 10px;
+}
+ 
+.descuentos{
+    font-size: 16px;
+    color: #39b54a ;
 }
 
-.fa-user-shield{
-    background-color: white;
-    color: blue;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
+
+.descripciones{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #666;
+    display: none;
+    
 }
+
+
+main section article p{
+    font-size: 16px;
+
+}
+
+
 
 #publico li a{
     text-decoration: none;
@@ -85,15 +132,68 @@ footer section{
     font-size: 24px;
 }
 
+#visitas, #ofertas{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}
 
-.precios{
-    font-size: 18px;
-}
- 
-.descuentos{
-    font-size: 16px;
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.descripciones{
-    font-size: 16px;
+footer section{
+    text-align: center;
+    width: 60vw;
+    margin-top: 15px;
+   
 }
+
+.fa-credit-card, .fa-gift, .fa-user-shield  {
+    background-color: white;
+    color: #1259c3;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer>p{
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+
+@media (min-width: 361px){
+    .burger-menu{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
+    .descripciones{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
