@@ -189,11 +189,57 @@ footer>p{
     }
 }
 
+/* animaciones */
 
+/* sombra de producto */
 
+.productContainer:hover {
+    cursor: pointer;
+    opacity: 20% ;
+  }
 
+  /* descripción oculta */
+  .productContainer .descripciones {
+    display: none;
+  }
+  
+  .productContainer:hover .descripciones {
+    display: block;
+  }
 
+  /* rotación ícono */
+ 
+.fa-truck{
+    transition: transform 0,3s ease;
+}
 
+.fa-truck:hover{                   
+    transform: rotate(90deg);
+}
 
+/* cambio de color iconos footer */
+ 
 
+.fa-credit-card {
+    transition: color 0.3s ease;
+}
 
+.fa-credit-card:hover{
+    color:#0022AA;
+}
+
+.fa-fa-gift {
+    transition: color 0.3s ease;
+}
+
+.fa-gift:hover{
+    color:#0022AA;
+}
+
+.fa-user-shield {
+    transition: color 0.3s ease;
+}
+
+.fa-user-shield:hover{
+    color:#0022AA;
+}
