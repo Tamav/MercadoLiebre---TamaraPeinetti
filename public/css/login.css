@@ -133,6 +133,14 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 
 
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
     .main-header-top-bar{
         display: flex;
@@ -196,6 +204,12 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
         margin: 0;
 
     }
+
+
+
+
+
+
   
     /*animaciones*/
 
@@ -233,11 +247,6 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 .fa-user-shield:hover{
     color:#0022AA;
 }
-
-
-
-
-
 
 
 
