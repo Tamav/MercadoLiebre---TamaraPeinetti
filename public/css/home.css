@@ -315,6 +315,17 @@ div.top-header{
 h2{
     font-size: 24px;
 }
+
+.banner {
+    transform: scale(0.8);
+    animation: scaleAnimation 1.5s infinite alternate;
+}
+
+@keyframes scaleAnimation {
+    to {
+        transform: scale(1);
+    }
+}
 /*.....................................................................Footer.................................................*/
 
 

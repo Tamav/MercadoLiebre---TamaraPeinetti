@@ -274,19 +274,8 @@ footer section {
 
 
     footer section {
-        margin-bottom: 20px; /* Espacio entre las secciones /
-    }
+        margin-bottom: 20px; 
     
-    / Media query para dispositivos con una anchura mínima de 768 píxeles (tamaño de pantalla de escritorio típico) /
-    @media screen and (min-width: 768px) {
-        footer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    
-        footer section {
-            width: calc(33.33% - 20px); / Calcula el ancho de cada sección con un margen entre ellas */
             margin-bottom: 0;
         }
     
@@ -314,12 +303,8 @@ footer section {
     align-items: center;
     background-color: #ebebeb;
 
-
-
-    
-    
-
 }
+
 
 
 .main-section h2{
@@ -346,11 +331,15 @@ footer section {
     color: red;
 }
 
+.main-form input{
+    border-radius: 8px;
+    
 
+}
 
-
-
-
+.main-form h3{
+    color: #333;
+}
 
 
 

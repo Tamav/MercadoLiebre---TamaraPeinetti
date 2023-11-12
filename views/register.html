@@ -54,21 +54,23 @@
     </header>
 <!---------------------------------------------------------------Main-------------------------------------------------------------------- -->
     <main class="main-form">
+        
         <form action="/register" method="post">
             <br>
+           
             <input type="text" name="Name" id="Name" required pattern="[a-zA-Z\s]+" placeholder="Nombre y Apellido">
             <br>
-             <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
+             <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Error: Formato incorrecto </p>
              
             <br>
             <input type="text" name="User" id="User required pattern="[a-zA-Z\s]+" placeholder="Nombre de usuario">
             <br>
-            <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
+            <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Error: Formato incorrecto</p>
             <br>
             <h3>Fecha de nacimiento</h3>
             <input type="date" name="birthday" id="birthday" required pattern="\d{2}-\d{2}-\d{4}">
             <br>
-            <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
+            <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Error: Formato incorrecto</p>
             <br>
             <input type="text" name="adress" id="adress" required placeholder="Domicilio">
             <br>
