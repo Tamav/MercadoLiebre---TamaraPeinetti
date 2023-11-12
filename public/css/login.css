@@ -1,6 +1,6 @@
-*
-{
-    Box-sizing: border-box
+*{
+    Box-sizing: border-box;
+    margin: 0;
   }
 
 body{
@@ -8,75 +8,81 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
 }
-
-/*Header*/
-.main-header{
-    background-color: #EAC926;
-    padding: 20px;
+header{
+    width: 100vw;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
 }
 
-.logo{
-    width: 100px;
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+} 
+    
 
-}
 
-.copy-header{
-    font-weight: 400;
-    text-align: center;
-}
-
-.search-bar{
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 15px;
-    margin: auto;
-}
 
 
 .hamburguer-button{
-    background-color: #03264c;
+    background-color: #1259c3;
     color: #ffffff;
-    display: block;
-    max-width: 50px;
     padding: 15px 0;
     border-radius: 8px;
     text-align: center;
     font-size: 18px;
-    margin: auto;
+    width: 50px;
+    height: 50px;
+
 }
 
 .main-navbar{
+    width: 100vw;
     display: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
-
-
-.main-navbar ul{
+.left-navbar,
+.right-navbar{
+    width: 50vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    margin: 0;
     padding: 0;
+
 }
 
-.main-navbar ul a{
-    text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 17px;
+.left-navbar li,
+.right-navbar li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+
+
 }
-.busqueda{
-    width: 350px;
-    height: 40px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-/*Main*/
+
+
+
+
+
+/*----------------------------------------------Main-------------------------------------------------*/
 
 .main-form{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color:#ebebeb;
+    background-color:gray;
 }
 .forms .button-enviar{
     width: 300px;
@@ -104,7 +110,7 @@ body{
 }
 
 
-/*Footer*/
+/*---------------------------------------------------Footer------------------------------------------------------*/
 
 footer{
     display: flex;
@@ -130,6 +136,124 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
     margin-bottom: 10px;
 }
 
+.main-header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#EAC926;
+}
+.main-header-top-bar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+
+
+
+
+
+}
+
+    
+
+    
+.logo{
+    width: 50vw;
+    object-fit: contain;
+    height: 10vh;
+
+}
+.search-bar{
+    width: 45vw;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.copy-header{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.busqueda{
+    width: 90%;
+    height: 60%;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: 1px solid #ebebeb;
+    
+
+}
+
+.busqueda::placeholder{
+    font-size: 16px;
+    color: #666;
+
+}
+
+
+.search-bar i{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 7%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    border-left: 1px solid #666;
+    
+    
+
+
+}
+
+.hamburguesa-container{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left-navbar a,
+.right-navbar a{
+    text-decoration: none;
+    color: #000000;
+
+
+   
+}
+    
+    
+
+
+    
+    
+
+.main-navbar li{
+    margin: 0 10px;
+
+}
+
+.main-navbar a{
+    font-size: 19px;
+}
 
 
 
@@ -141,21 +265,32 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 @media (min-width: 768px) {
     .main-header-top-bar{
         display: flex;
         justify-content: space-between;
     }
-    .copy-header{
-        max-width: 350px;
-        text-align: right;
-    }
-    .hamburguer-button{
-        display: none;
-    }
+    
     .main-navbar{
         display: flex;
-        justify-content: space-between;
     }
     .main-navbar ul{
         display: flex;
@@ -165,45 +300,145 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
         margin: 0 5px;
 
     }
+    .producto-container{
+        width: 23vw;
+    }
 
-}
-
-@media (min-width: 1200px) {
     .logo{
-        width: 250px;
+        width: 33vw;
     }
-}
-
-
-    .main-header-top-bar, .main-navbar{
-        max-width: 1200px;
-        margin: auto;
-    }
-    .main-navbar{
-        margin-top: 40px;
-    }
-
-    .main-header-top-bar{
-        align-items: center;
-    }
-
-
-
-    .main-navbar li{
-        margin: 0 10px;
-
-    }
-
-    .main-navbar a{
-        font-size: 19px;
+    .search-bar{
+        width: 33vw;
     }
     .copy-header{
-        max-width: none;
-        font-size: 18px;
-        font-weight: 400;
-        margin: 0;
+        width: 33vw;
+    }
+    .hamburguesa-container{
+        display: none;
+    }
+    .left-navbar{
+        width: 45vw;
+        justify-content: flex-start;
+    }
+    .right-navbar{
+        width: 55vw;
+        justify-content: flex-end;
 
     }
+
+.left-navbar li,
+.right-navbar li{
+    width: auto;
+   
+}
+
+        
+}
+
+
+
+/*Animation*/
+
+
+ /*cambio de color iconos footer */
+ 
+
+.fa-credit-card {
+    transition: color 0.3s ease;
+}
+
+.fa-credit-card:hover{
+    color:#0022AA;
+}
+
+.fa-fa-gift {
+    transition: color 0.3s ease;
+}
+
+.fa-gift:hover{
+    color:#0022AA;
+}
+
+.fa-user-shield {
+    transition: color 0.3s ease;
+}
+
+.fa-user-shield:hover{
+    color:#0022AA;
+}
+   
+/*Footer*/
+footer section {
+    margin-bottom: 20px; 
+}
+
+
+
+@media screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }}
+
+    footer section {
+        width: calc(33.33% - 20px); 
+        margin-bottom: 0;
+    }
+
+
+footer section {
+    margin-bottom: 20px; 
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }}
+
+    .main-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background-color:#ebebeb;
+    }
+    
+    
+    
+    .register_format{
+        border: 2px solid red;
+        border-radius: 2px;
+        width: 170px;
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------Responsive------------------------------------------------------*/
+
+
+
+
+
+
+
+   
 
 
 
@@ -211,7 +446,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 
   
-    /*animaciones*/
+    /*..........................................animaciones.....................................................*/
 
     .button-enviar{
         transition: background-color 0.3s ease;
@@ -249,7 +484,32 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 }
 
 
+footer {
+    margin-top: 200px; /* Ajusta el valor según sea necesario */
+}
+
+.main-form {
+    flex-grow: 1; /* Hace que la sección main ocupe todo el espacio disponible */
+}
+main {
+    padding-top: 50px; /* Ajusta el valor según sea necesario */
+}
 
 
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* O ajusta la altura según sea necesario */
+}
 
+.forms {
+    text-align: center; /* Alinea el texto al centro si es necesario */
+}
 
+.forms input {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 15px; /* Espacio entre los inputs */
+}
