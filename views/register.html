@@ -15,11 +15,13 @@
 
 </head>
 <body>
+
+<!-------------------------------------------------------Header---------------------------------------------------------------------------------------------------- -->
     <header class="main-header">
         <div class="main-header-top-bar">
             <img src="../img/logo-mercado-liebre.svg" class="logo">
             <div class="search-bar">
-                <input class="busqueda" type="text" name="search-bar" id="search-bar" placeholder="Busca productos, marcas y mas">
+                <input class="busqueda" type="text" name="search-bar" id="search-bar" placeholder="Busca productos, marcas y más">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 
             </div>
@@ -29,7 +31,7 @@
             </h2>
         </div>
         
-        <div class="hamburguesa-container">
+        <div class="hamburguer-container">
             <div class="hamburguer-button">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -43,32 +45,32 @@
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <ul class="right-navbar">
-                <li><a href="#">Crea tu cuenta <i class="fa-solid fa-credit-card"></i></a></li>
-                <li><a href="#">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="register">Crea tu cuenta <i class="fa-solid fa-credit-card"></i></a></li>
+                <li><a href="login">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
             </ul>
         </nav>
         
     </header>
-
+<!---------------------------------------------------------------Main-------------------------------------------------------------------- -->
     <main class="main-form">
         <form action="/register" method="post">
             <br>
-            <input type="text" name="Nombre" id="Nombre" required pattern="[a-zA-Z\s]+" placeholder="Nombre y Apellido">
+            <input type="text" name="Name" id="Name" required pattern="[a-zA-Z\s]+" placeholder="Nombre y Apellido">
             <br>
              <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
              
             <br>
-            <input type="text" name="Usuario" id="Usuario" required pattern="[a-zA-Z\s]+" placeholder="Nombre de usuario">
+            <input type="text" name="User" id="User required pattern="[a-zA-Z\s]+" placeholder="Nombre de usuario">
             <br>
             <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
             <br>
             <h3>Fecha de nacimiento</h3>
-            <input type="date" name="nacimiento" id="nacimiento" required pattern="\d{2}-\d{2}-\d{4}">
+            <input type="date" name="birthday" id="birthday" required pattern="\d{2}-\d{2}-\d{4}">
             <br>
             <p class="register_format"><i class="fa-solid fa-triangle-exclamation" style="color: #cc0000;"></i> Ingresar formato solicitado</p>
             <br>
-            <input type="text" name="domicilio" id="domicilio" required placeholder="Domicilio">
+            <input type="text" name="adress" id="adress" required placeholder="Domicilio">
             <br>
 
             <h3>Perfil del usuario</h3>
@@ -120,7 +122,7 @@
 
         </form>
     </main>
-
+<!-------------------------------------------------------------------Footer-------------------------------------------------------------------- -->
     <footer>
         
         <section>

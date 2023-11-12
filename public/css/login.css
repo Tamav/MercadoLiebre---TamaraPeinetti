@@ -8,12 +8,12 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
 }
+
+/*.............................................Header.....................................................*/
 header{
     width: 100vw;
 }
-h3{
-    font-size: 24px;
-}
+
 p{
     font-size: 12px;
 }
@@ -69,71 +69,6 @@ div.top-header{
     height: 2rem;
 
 
-}
-
-
-
-
-
-/*----------------------------------------------Main-------------------------------------------------*/
-
-.main-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    background-color:gray;
-}
-.forms .button-enviar{
-    width: 300px;
-    height: 35px;
-    border-radius: 8px;
-    background-color: #1259c3;
-    color: #ffffff;
-}
-
-.forms input{
-    width: 300px;
-    height: 35px;
-}
-
-
-
-
-
-.input-container .search-bar i{
-    top: 14px;
-    font-size: 20px;
-    margin-left: -30px;
-   
-
-}
-
-
-/*---------------------------------------------------Footer------------------------------------------------------*/
-
-footer{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-footer section{
-    text-align: center;
-    width: 60vw;
-    margin-top: 15px;
-
-}
-
-
-footer section .fa-credit-card, .fa-gift, .fa-user-shield{
-    background-color: white;
-    color: #1259c3;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
 }
 
 .main-header{
@@ -222,7 +157,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 }
 
-.hamburguesa-container{
+.hamburguer-container{
     width: 100vw;
     height: 60px;
     display: flex;
@@ -261,25 +196,69 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 
 
+/*----------------------------------------------Main-------------------------------------------------*/
+
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color:#666;
+}
+.forms .button-enviar{
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #1259c3;
+    color: #ffffff;
+}
+
+.forms input{
+    width: 300px;
+    height: 35px;
+}
 
 
 
 
 
+.input-container .search-bar i{
+    top: 14px;
+    font-size: 20px;
+    margin-left: -30px;
+   
+
+}
 
 
+/*---------------------------------------------------Footer------------------------------------------------------*/
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer section{
+    text-align: center;
+    width: 60vw;
+    margin-top: 15px;
+
+}
 
 
+footer section .fa-credit-card, .fa-gift, .fa-user-shield{
+    background-color: white;
+    color: #1259c3;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
 
 
-
-
-
-
-
-
-
-
+/*--------------------------------------------------Responsive-----------------------------------------------------*/
 
 
     
@@ -313,7 +292,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
     .copy-header{
         width: 33vw;
     }
-    .hamburguesa-container{
+    .hamburguer-container{
         display: none;
     }
     .left-navbar{
@@ -333,43 +312,6 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 }
 
         
-}
-
-
-
-/*Animation*/
-
-
- /*cambio de color iconos footer */
- 
-
-.fa-credit-card {
-    transition: color 0.3s ease;
-}
-
-.fa-credit-card:hover{
-    color:#0022AA;
-}
-
-.fa-fa-gift {
-    transition: color 0.3s ease;
-}
-
-.fa-gift:hover{
-    color:#0022AA;
-}
-
-.fa-user-shield {
-    transition: color 0.3s ease;
-}
-
-.fa-user-shield:hover{
-    color:#0022AA;
-}
-   
-/*Footer*/
-footer section {
-    margin-bottom: 20px; 
 }
 
 
@@ -407,56 +349,11 @@ footer section {
     }
     
     
-    
-    .register_format{
-        border: 2px solid red;
-        border-radius: 2px;
-        width: 170px;
-        color: red;
-    }
+
+/*.......................................................Animation.............................................................................*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------------------------Responsive------------------------------------------------------*/
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-  
-    /*..........................................animaciones.....................................................*/
-
-    .button-enviar{
-        transition: background-color 0.3s ease;
-    }
-
-    .button-enviar:hover{
-        background-color:#0022AA;
-    }
-    
-/* cambio de color iconos footer */
+ /*cambio de color iconos footer */
  
 
 .fa-credit-card {
@@ -482,18 +379,65 @@ footer section {
 .fa-user-shield:hover{
     color:#0022AA;
 }
-
-
-footer {
-    margin-top: 200px; /* Ajusta el valor según sea necesario */
+   
+/*Footer*/
+footer section {
+    margin-bottom: 20px; 
 }
+
+.button-enviar{
+    transition: background-color 0.3s ease;
+}
+
+.button-enviar:hover{
+    background-color:#0022AA;
+}
+
+/* cambio de color iconos footer */
+
+
+.fa-credit-card {
+transition: color 0.3s ease;
+}
+
+.fa-credit-card:hover{
+color:#0022AA;
+}
+
+.fa-fa-gift {
+transition: color 0.3s ease;
+}
+
+.fa-gift:hover{
+color:#0022AA;
+}
+
+.fa-user-shield {
+transition: color 0.3s ease;
+}
+
+.fa-user-shield:hover{
+color:#0022AA;
+}
+
+     
+    /*....................................... más estilos formulario.....................................................*/
+
+    
+
+
 
 .main-form {
     flex-grow: 1; /* Hace que la sección main ocupe todo el espacio disponible */
+    
 }
-main {
-    padding-top: 50px; /* Ajusta el valor según sea necesario */
+.nombre_usuario{
+    height: 30px;
+    width: 10px;
 }
+
+
+
 
 
 .main-form {

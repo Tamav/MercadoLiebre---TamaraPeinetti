@@ -8,6 +8,8 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
 }
+
+/*..........................................................header..............................................................*/
 header{
     width: 100vw;
 }
@@ -24,137 +26,6 @@ div.top-header{
     padding: 5%;
 } 
     
-
-
-
-
-.hamburguer-button{
-    background-color: #1259c3;
-    color: #ffffff;
-    padding: 15px 0;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 18px;
-    width: 50px;
-    height: 50px;
-
-}
-
-.main-navbar{
-    width: 100vw;
-    display: none;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    
-}
-.left-navbar,
-.right-navbar{
-    width: 50vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-
-}
-
-.left-navbar li,
-.right-navbar li{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2rem;
-
-
-}
-
-
-   
-
-
-    
-
-
-
-
-.banner img{
-    width: 100%;
-
-}
-
-
-
-
-/*Main*/
-
-.main-section{
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #ebebeb;
-
-
-
-    
-    
-
-}
-
-
-.main-section h2{
-    width: 100vw;
-
-}
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-/*Fin del main*/
-
-/*Footer*/
-
-footer{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-footer section{
-    text-align: center;
-    width: 60vw;
-    margin-top: 15px;
-
-}
-
-
-footer section .fa-credit-card, .fa-gift, .fa-user-shield{
-    background-color: white;
-    color: #1259c3;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-
- 
-
-
 .main-header{
     display: flex;
     flex-flow: column wrap;
@@ -259,7 +130,50 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
    
 }
     
+.hamburguer-button{
+    background-color: #1259c3;
+    color: #ffffff;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.main-navbar{
+    width: 100vw;
+    display: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     
+}
+.left-navbar,
+.right-navbar{
+    width: 50vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+
+}
+
+.left-navbar li,
+.right-navbar li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+
+
+}
+
+   
 
 
     
@@ -274,32 +188,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
     font-size: 19px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*.....................................................responsive.........................................................*/
 
     
 @media (min-width: 768px) {
@@ -353,10 +242,172 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
         
 }
+@media  (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }}
+
+    footer section {
+        width: calc(33.33% - 20px); 
+        margin-bottom: 0;
+    }
+
+
+footer section {
+    margin-bottom: 20px; 
+}
+
+@media  (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }}
+
+
+    
 
 
 
-/*Animation*/
+
+
+    footer section {
+        margin-bottom: 20px; /* Espacio entre las secciones /
+    }
+    
+    / Media query para dispositivos con una anchura mínima de 768 píxeles (tamaño de pantalla de escritorio típico) /
+    @media screen and (min-width: 768px) {
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+        footer section {
+            width: calc(33.33% - 20px); / Calcula el ancho de cada sección con un margen entre ellas */
+            margin-bottom: 0;
+        }
+    
+    footer section {
+        margin-bottom: 20px; 
+    }
+    @media screen and (min-width: 768px) {
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    footer section {
+            width: calc(33.33% - 20px); 
+            margin-bottom: 0;
+        }
+    }
+/*.........................................................Main...........................................................*/
+
+.main-section{
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+
+
+
+    
+    
+
+}
+
+
+.main-section h2{
+    width: 100vw;
+
+}
+    
+
+    
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color:#ebebeb;
+}
+
+
+
+.register_format{
+    border: 2px solid red;
+    border-radius: 2px;
+    width: 170px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*......................................Footer.......................................................*/
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer section{
+    text-align: center;
+    width: 60vw;
+    margin-top: 15px;
+
+}
+
+
+footer section .fa-credit-card, .fa-gift, .fa-user-shield{
+    background-color: white;
+    color: #1259c3;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+footer section {
+    margin-bottom: 30px;
+
+}
+@media (min-width: 1200px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer section {
+        width: calc(33.33% - 20px); /* Calcula el ancho de cada sección con un margen entre ellas */
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+/*........................................Animation.................................................................*/
 
 
  /*cambio de color iconos footer */
@@ -393,49 +444,8 @@ footer section {
 
 
 
-@media screen and (min-width: 768px) {
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }}
 
-    footer section {
-        width: calc(33.33% - 20px); 
-        margin-bottom: 0;
-    }
-
-
-footer section {
-    margin-bottom: 20px; 
-}
-
-@media screen and (min-width: 768px) {
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }}
-
-    .main-form{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        background-color:#ebebeb;
-    }
-    
-    
-    
-    .register_format{
-        border: 2px solid red;
-        border-radius: 2px;
-        width: 170px;
-        color: red;
-    }
-
-
-
+  
 
 
 

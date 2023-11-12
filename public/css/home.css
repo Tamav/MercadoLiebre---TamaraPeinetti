@@ -312,6 +312,9 @@ div.top-header{
 
 }
     
+h2{
+    font-size: 24px;
+}
 /*.....................................................................Footer.................................................*/
 
 
@@ -321,6 +324,7 @@ footer{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -405,7 +409,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
         
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
    
 }
 
