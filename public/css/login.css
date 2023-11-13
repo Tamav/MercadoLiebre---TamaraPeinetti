@@ -319,7 +319,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 
 
 
-@media screen and (min-width: 768px) {
+@media  (min-width: 768px) {
     footer {
         display: flex;
         flex-direction: row;
@@ -336,7 +336,7 @@ footer section {
     margin-bottom: 20px; 
 }
 
-@media screen and (min-width: 768px) {
+@media  (min-width: 768px) {
     footer {
         display: flex;
         flex-direction: row;
