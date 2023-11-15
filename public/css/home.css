@@ -211,7 +211,11 @@ div.top-header{
 } 
     
 
-
+button{
+    width: 40px;
+    height: 55px;
+    
+}
 
 
 
@@ -502,5 +506,4 @@ footer section {
         margin-bottom: 0;
     }
 }
-
 

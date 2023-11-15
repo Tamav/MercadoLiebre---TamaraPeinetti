@@ -192,7 +192,11 @@ div.top-header{
 
 
 
-
+button{
+    width: 40px;
+    height: 55px;
+    
+}
 
 
 
@@ -460,3 +464,5 @@ color:#0022AA;
     height: 35px;
     margin-bottom: 15px; /* Espacio entre los inputs */
 }
+
+
