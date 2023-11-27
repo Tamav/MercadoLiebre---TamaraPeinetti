@@ -25,7 +25,7 @@ div.top-header{
 } 
     
 .hamburguer-button{
-    background-color: #1259c3;
+    background-color: #1259c3 ;
     color: #ffffff;
     padding: 15px 0;
     border-radius: 8px;
@@ -123,7 +123,7 @@ div.top-header{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 14px;
 
 }
 
