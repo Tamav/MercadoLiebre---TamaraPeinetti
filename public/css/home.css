@@ -213,7 +213,9 @@ div.top-header{
 
 button{
     width: 40px;
-    height: 55px;
+    height: 60%;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
     
 }
 
@@ -358,6 +360,7 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
     font-size: 2em;
     margin-bottom: 10px;
 }
+
 
 /*....................................................................Responsive................................................*/
 
