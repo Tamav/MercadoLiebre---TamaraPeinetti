@@ -436,9 +436,9 @@ footer section .fa-credit-card, .fa-gift, .fa-user-shield{
 /* sombra de producto */
 
 .product-container:hover {
-    cursor: pointer;
-    opacity: 20% ;
-  }
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+}
+  
 
   /* descripción oculta */
   .product-container .description {
