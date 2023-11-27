@@ -404,9 +404,11 @@ footer section {
 }
 
 
-
-
-
+@media (min-width: 768px) {
+    .hamburguer-container{
+        display: none;
+    }
+}
 /*........................................Animation.................................................................*/
 
 
