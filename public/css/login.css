@@ -365,69 +365,14 @@ footer section {
  /*cambio de color iconos footer */
  
 
-.fa-credit-card {
-    transition: color 0.3s ease;
-}
-
-.fa-credit-card:hover{
-    color:#0022AA;
-}
-
-.fa-fa-gift {
-    transition: color 0.3s ease;
-}
-
-.fa-gift:hover{
-    color:#0022AA;
-}
-
-.fa-user-shield {
-    transition: color 0.3s ease;
-}
-
-.fa-user-shield:hover{
-    color:#0022AA;
-}
-   
-/*Footer*/
-footer section {
-    margin-bottom: 20px; 
-}
-
-.button-enviar{
-    transition: background-color 0.3s ease;
-}
-
-.button-enviar:hover{
-    background-color:#0022AA;
-}
 
 /* cambio de color iconos footer */
 
 
-.fa-credit-card {
-transition: color 0.3s ease;
+footer section i:hover {
+    color: #39b54a
 }
 
-.fa-credit-card:hover{
-color:#39b54a;
-}
-
-.fa-fa-gift {
-transition: color 0.3s ease;
-}
-
-.fa-gift:hover{
-color:#39b54a;
-}
-
-.fa-user-shield {
-transition: color 0.3s ease;
-}
-
-.fa-user-shield:hover{
-color:#39b54a;
-}
 
      
     /*....................................... más estilos formulario.....................................................*/

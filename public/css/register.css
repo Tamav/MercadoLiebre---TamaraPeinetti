@@ -414,30 +414,10 @@ footer section {
 
  /*cambio de color iconos footer */
  
-
-.fa-credit-card {
-    transition: color 0.3s ease;
+ footer section i:hover {
+    color: #39b54a
 }
 
-.fa-credit-card:hover{
-    color:#39b54a;
-}
-
-.fa-fa-gift {
-    transition: color 0.3s ease;
-}
-
-.fa-gift:hover{
-    color:#39b54a;
-}
-
-.fa-user-shield {
-    transition: color 0.3s ease;
-}
-
-.fa-user-shield:hover{
-    color:#39b54a;
-}
    
 /*Footer*/
 footer section {
